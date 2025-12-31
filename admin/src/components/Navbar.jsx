@@ -16,7 +16,7 @@ const Navbar = () => {
         aToken && localStorage.removeItem('aToken')
         dToken && setDToken('')
         dToken && localStorage.removeItem('dToken')
-        window.location.href = "http://localhost:5173"
+        window.location.href = "https://clinicease-frontend-szla.onrender.com"
     }
 
   return (
@@ -26,7 +26,7 @@ const Navbar = () => {
             <p className='border px-2.5 py-0.5 rounded-full border-gray-600'>{aToken ? 'Admin' :'Doctor'}</p>
         </div>
         <div className='flex items-center gap-6'>
-        <p onClick={() => window.location.href = "http://localhost:5173"} className="border px-2.5 py-0.5 rounded-full border-gray-600 text-sm text-gray-600 cursor-pointer hover:text-white hover:bg-primary hover:border-none" > User </p>
+        <p onClick={() => window.location.href = "https://clinicease-frontend-szla.onrender.com"} className="border px-2.5 py-0.5 rounded-full border-gray-600 text-sm text-gray-600 cursor-pointer hover:text-white hover:bg-primary hover:border-none" > User </p>
         <button onClick={logout} className='bg-primary text-white text-sm px-10 py-2 rounded-full'>Logout</button>
         </div>
 
