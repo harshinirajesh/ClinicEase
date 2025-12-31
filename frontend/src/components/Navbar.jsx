@@ -41,6 +41,8 @@ const Navbar = () => {
       </ul>
 
       <div className='flex items-center gap-4'>
+        <p onClick={() => window.location.href = "http://localhost:5174"} className="border px-2.5 py-0.5 rounded-full border-gray-600 text-sm text-gray-600 cursor-pointer hover:text-white hover:bg-primary hover:border-none" > Admin Panel </p>
+
         {
             token && userData
             ? <div className='flex items-center gap-2 cursor-pointer group relative'>

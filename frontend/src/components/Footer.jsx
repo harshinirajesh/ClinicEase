@@ -8,7 +8,7 @@ const Footer = () => {
             {/*---Left Side---*/}
             <div>
                 <img className='mb-5 w-40' src={assets.logo} alt="" />
-                <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p className='w-full md:w-2/3 text-gray-600 leading-6'>ClinicEase is committed to excellence in healthcare technology. We continuously strive to enhance our platform, integrating the latest advancements to improve user experience and deliver superior service. Whether you're booking your first appointment or managing ongoing care, ClinicEase is here to support you every step of the way.</p>
             </div>
 
             {/*---Center---*/}
@@ -27,7 +27,7 @@ const Footer = () => {
                 <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
                 <ul className='flex flex-col gap-2 text-gray-600'>
                     <li>+1-212-456-7890</li>
-                    <li>prescripto@gmail.com</li>
+                    <li>clinicease@gmail.com</li>
                 </ul>
             </div>
         </div>
@@ -35,7 +35,7 @@ const Footer = () => {
         {/*---Copyright---*/}
         <div>
             <hr />
-            <p className='py-5 text-sm text-center'>Copyright 2025 © Prescripto - All Right Reserved.</p>
+            <p className='py-5 text-sm text-center'>Copyright 2025 © ClinicEase - All Right Reserved.</p>
         </div>
 
     </div>
