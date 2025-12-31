@@ -41,7 +41,7 @@ const Navbar = () => {
       </ul>
 
       <div className='flex items-center gap-4'>
-        <p onClick={() => window.location.href = "http://localhost:5174"} className="border px-2.5 py-0.5 rounded-full border-gray-600 text-sm text-gray-600 cursor-pointer hover:text-white hover:bg-primary hover:border-none" > Admin Panel </p>
+        <p onClick={() => window.location.href = "https://clinicease-admin.onrender.com"} className="border px-2.5 py-0.5 rounded-full border-gray-600 text-sm text-gray-600 cursor-pointer hover:text-white hover:bg-primary hover:border-none" > Admin Panel </p>
 
         {
             token && userData
