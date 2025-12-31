@@ -8,7 +8,7 @@ const AdminContextProvider = (props) => {
     localStorage.getItem("aToken") ? localStorage.getItem("aToken") : ""
   );
 
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://clinicease-backend-nxv9.onrender.com";
   const [doctors, setDoctors] = useState([]);
   const [appointments, setAppointments] = useState([])
   const[dashData, setDashData] = useState(false)
