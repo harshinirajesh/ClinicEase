@@ -53,8 +53,8 @@ ClinicEase is a comprehensive healthcare management application built using the 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/prescripto.git
-cd prescripto
+git clone https://github.com/harshinirajesh/CliniEase.git
+cd CliniEase
 ```
 
 ### 2. Configure Environment Variables
