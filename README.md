@@ -1,4 +1,3 @@
-```markdown
 # ClinicEase – Full Stack Doctor Appointment Booking System
 
 ClinicEase is a comprehensive healthcare management application built using the **MERN Stack (MongoDB, Express, React, Node.js)**. It provides a seamless platform for patients to book appointments with doctors across various specialties, along with dedicated dashboards for **Doctors** and **Administrators**.
@@ -37,8 +36,6 @@ ClinicEase is a comprehensive healthcare management application built using the 
 ---
 
 ## Project Structure
-
-```
 
 ├── admin/          # React Vite project for Admin & Doctor Panel
 ├── backend/        # Node.js API with Express & MongoDB
