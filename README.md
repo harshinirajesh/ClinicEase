@@ -7,51 +7,55 @@ ClinicEase is a comprehensive healthcare management application built using the 
 ## Features
 
 ### Patient Side
-- **User Authentication**: Secure signup and login using JWT.
-- **Doctor Browsing**: Filter doctors by specialty (General Physician, Gynecologist, Dermatologist, etc.).
-- **Appointment Booking**: View available time slots and book appointments.
-- **Online Payments**: Secure payment integration using Razorpay.
-- **Profile Management**: Update personal details and upload profile images via Cloudinary.
+
+* Secure user authentication using JWT
+* Browse and filter doctors by specialty (General Physician, Gynecologist, Dermatologist, etc.)
+* Book appointments by viewing available time slots
+* Online payments with Razorpay integration
+* Profile management with image uploads via Cloudinary
 
 ### Doctor Panel
-- **Dashboard**: View total earnings, appointment count, and recent bookings.
-- **Appointment Management**: Mark appointments as completed or cancel them.
-- **Availability Toggle**: Control visibility and availability for patients.
+
+* Dashboard showing total earnings, appointment count, and recent bookings
+* Manage appointments (complete or cancel)
+* Toggle availability visibility for patients
 
 ### Admin Panel
-- **Doctor Management**: Add new doctors, update profiles, and manage credentials.
-- **Global Overview**: View and manage all appointments across the platform.
+
+* Add and manage doctor profiles and credentials
+* View and manage all appointments across the platform
 
 ---
 
 ## Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS, Vite  
-- **Backend**: Node.js, Express.js  
-- **Database**: MongoDB Atlas  
-- **Cloud Storage**: Cloudinary  
-- **Payment Gateway**: Razorpay  
-- **Authentication**: JSON Web Tokens (JWT), Bcrypt.js  
+* **Frontend**: React.js, Tailwind CSS, Vite
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB Atlas
+* **Cloud Storage**: Cloudinary
+* **Payment Gateway**: Razorpay
+* **Authentication**: JSON Web Tokens (JWT), Bcrypt.js
 
 ---
 
 ## Project Structure
 
+```
 ├── admin/          # React Vite project for Admin & Doctor Panel
 ├── backend/        # Node.js API with Express & MongoDB
 ├── frontend/       # React Vite project for Patient Interface
-
-````
+```
 
 ---
 
 ## Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/prescripto.git
 cd prescripto
-````
+```
 
 ### 2. Configure Environment Variables
 
@@ -118,8 +122,5 @@ npm run dev
 
 ## Contributing
 
-Contributions are welcome. Feel free to fork the repository, create a new branch, and submit a pull request.
+Contributions are welcome. Fork the repository, create a new branch, and submit a pull request for review.
 
-```
-```
-come! Feel free to open a Pull Request or report an Issue.
